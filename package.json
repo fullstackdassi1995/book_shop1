@@ -1,0 +1,31 @@
+{
+  "name": "prog_books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "books.js",
+  "scripts": {
+    "start": "node ./file_js/index.js",
+    "books" : "node ./file_js/book_dal.js",
+    "orders" : "node ./file_js/orders_dal.js",
+    "debug": "nodemon ./file_js/book_dal.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.1",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackdassi1995/books.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fullstackdassi1995/books/issues"
+  },
+  "homepage": "https://github.com/fullstackdassi1995/books#readme"
+}
